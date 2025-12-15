@@ -102,4 +102,7 @@ func main() {
 		age5  = 27
 	)
 	fmt.Println(name5, age5)
+
+	// А ещё, чтобы сделать отладку в VS Code код на Go нужно
+	// $ go mod init 'Название пакета'.
 }
