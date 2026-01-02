@@ -96,7 +96,9 @@ func main() {
 	people1 := map[string]int{"Tom": 1, "Sam": 2, "Bob": 12}
 	people2 := map[string]int{"Tom": 1, "Sam": 2, "Bob": 3}
 	people3 := map[string]int{"Tom": 1, "Sam": 2, "Bob": 12}
+	people4 := map[int]string{1: "Tom", 2: "Sam", 12: "Bob"}
 	fmt.Println("people1 == people2 :", reflect.DeepEqual(people1, people2)) // false
 	fmt.Println("people2 == people3 :", reflect.DeepEqual(people2, people3)) // false
 	fmt.Println("people1 == people3 :", reflect.DeepEqual(people1, people3)) // true
+	fmt.Println("people4 == people3 :", reflect.DeepEqual(people4, people3)) // false
 }
