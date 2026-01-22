@@ -36,6 +36,7 @@ func get_value(c chan int){
         fmt.Println("Канал закрыт")
     }
 }
+
 func main(){
     var intCh chan int = make (chan int)
     go send_value(intCh)
