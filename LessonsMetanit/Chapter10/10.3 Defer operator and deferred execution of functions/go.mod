@@ -1,0 +1,3 @@
+module Defer_operator_and_deferred_execution_of_functions
+
+go 1.25.5
